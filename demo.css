@@ -1,0 +1,89 @@
+@charset "utf-8";
+body {font-size:14px;  font-family:'Microsoft YaHei','STHeiti','arial'; color:#333333;  -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html,body,div,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,iframe,input,textarea,select,label,article,aside,footer,header,menu,nav,section,time,audio,video { margin:0;  padding:0;}
+article,aside,footer,header,hgroup,nav,section,audio,canvas,video { display: block;}
+a { text-decoration: none; color:#333333;}
+a:visited { color:#111111; }
+ul,ol,li {list-style:none;}
+button{cursor: pointer;}
+input,select,textarea { outline: 0;  -webkit-user-modify: read-write-plaintext-only; border:0px; font-family:'Microsoft YaHei','STHeiti','arial'; font-size:14px; color:#696969;}
+/*input {   -webkit-appearance: none;}*/
+select /*{  -moz-appearance:none;  -webkit-appearance:none; appearance:none; */background-color:transparent; border:0px; border: #e5e6e7 1px solid;color: #333;}
+select option:nth-of-type(1){
+	color: #696969!important;
+}
+/*公共样式*/
+.posRel{position: relative;}
+.posAbs{position: absolute;}
+.fl { float:left;} 
+.fr { float:right;}
+.tc{text-align: center;}
+.overHide{overflow: hidden;}
+.btn{
+	display: inline-block;
+	background: #eee;
+	width: 50px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	margin: 0 15px;
+}
+.ellip{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+html,body{
+	height: 100%;
+}
+.wrap{
+	width: 99%;
+	height: 48%;
+	margin: 1% auto;
+	/*border: 1px solid #ccc;*/
+	box-shadow: 0 0 1px #ccc;
+}
+.wrap>div{
+	width: 33.3%;
+}
+.audioWrap{height: 100%;}
+.audioBox{
+	width: calc(100% - 20px);
+    height: calc(100% - 70px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+}
+.wrap .itemWrap{
+	width: calc(33.3% - 20px);
+	height: calc(100% - 20px);
+	padding: 10px;
+}
+.itemWrap h3{
+	font-size: 18px;
+}
+.itemList{
+	height: calc(100% - 40px);
+	overflow-y: auto;
+}
+.compare{
+	height: 100%;
+}
+.picCompare{
+	width: 100%;
+	height: 48%;
+}
+.picCompare div{
+	width: calc((100% - 30px)/2);
+	border: 1px solid #ccc;
+	height: 96%;
+	margin: 1% 0 1% 10px;
+}
+.vedioCompare{
+	width: calc(100% - 20px);
+	margin: 10px auto 0;
+	border: 1px solid #ccc;
+	height: 46%;
+}
